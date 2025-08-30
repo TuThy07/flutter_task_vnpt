@@ -63,7 +63,7 @@ class ServiceManagerScreen extends StatelessWidget {
                     title: controller.serviceNames[index],
                     status: controller.serviceStatuses[index],
                     price: controller.servicePrices[index],
-                    // Biến 'icon' không được truyền vào nữa, chỉ giữ lại chấm
+                   
                   );
                 },
               ),
